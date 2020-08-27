@@ -229,7 +229,7 @@
 			$.ajax({      	
 
 		      type: "POST",
-		      url: "inc/sendEmail.php",
+		      url: "sendEmail.php",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
@@ -256,7 +256,7 @@
 		      error: function() {
 
 		      	sLoader.fadeOut(); 
-		      	$('#message-warning').html("Something went wrong. Please try again.");
+		      	$('#message-warning').html("Что-то пошло не так, попробуйте ещё раз.");
 		         $('#message-warning').fadeIn();
 
 		      }
