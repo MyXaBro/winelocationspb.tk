@@ -1,4 +1,4 @@
-f/* =================================================================== */
+/* =================================================================== */
 /*
 /*  Winelocation v1.0 Main Stylesheet
 /*  url: styleshout.com
@@ -1099,7 +1099,16 @@ ul#nav li.current a:after {
 
 @media only screen and (max-width:768px) {
 	#hero {
-	min-height: auto;
+	background: #0F1215 url(../images/hero-bg.png) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	object-fit: cover;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	
 	}
 
 	.hero-content {
