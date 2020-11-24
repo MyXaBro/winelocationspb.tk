@@ -970,7 +970,7 @@ ul#nav li.current a:after {
 	-moz-background-size: cover;
 	background-size: cover;
 	object-fit: cover;
-	height: 100%;
+	height: auto;
 	width: 100%;
 	text-align: left;
 	position: relative;
