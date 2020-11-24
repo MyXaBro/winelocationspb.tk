@@ -1149,7 +1149,7 @@ ul#nav li.current a:after {
 
 @media only screen and (max-width:480px) {
 	#hero {
-		background: #0F1215 url(../images/mobile-bg.png) no-repeat center;
+		background: #0F1215 url(../images/mobile-bg.png) cover cover no-repeat center fixed;
 	padding: auto;
 	width:320px;	
 	}
