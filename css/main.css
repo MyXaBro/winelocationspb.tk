@@ -1149,7 +1149,9 @@ ul#nav li.current a:after {
 
 @media only screen and (max-width:480px) {
 	#hero {
-	background: #0F1215 url(../images/hero-bg.png) center center cover no-repeat fixed;	
+	background: #0F1215 url(../images/hero-bg.png) center center cover no-repeat fixed;
+	padding: auto;
+	width:100%;	
 	}
 
 	.hero-content {
@@ -1176,10 +1178,6 @@ ul#nav li.current a:after {
 }
 
 @media only screen and (max-width:400px) {
-	#hero{
-		background-size: cover;
-		background-attachment: fixed;
-	}
 
 	.hero-content {
 		padding-bottom: 54px;
