@@ -969,7 +969,8 @@ ul#nav li.current a:after {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	min-height: 630px;
+	object-fit: cover;
+	height: 100%;
 	width: 100%;
 	text-align: left;
 	position: relative;
