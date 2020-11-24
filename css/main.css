@@ -1161,15 +1161,7 @@ ul#nav li.current a:after {
 
 @media only screen and (max-width:480px) {
 	#hero {
-	background: #0F1215 url(../images/hero-bg.png) no-repeat center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	object-fit: cover;
-	height: auto;
-	width: 100%;
-	text-align: center;
-	position: relative;
+	width:120px;
 	}
 
 	.hero-content {
