@@ -965,7 +965,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #0F1215 url(../images/hero-bg.jpg) no-repeat center;
+	background: #0F1215 url(../images/hero-bg.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1099,15 +1099,6 @@ ul#nav li.current a:after {
 
 @media only screen and (max-width:768px) {
 	#hero {
-		background: #0F1215 url(../images/hero-bg.jpg) no-repeat center;
-		-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	object-fit: cover;
-	height: 100%;
-	width: 100%;
-	text-align: left;
-	position: relative;
 	min-height: auto;
 	}
 
