@@ -1149,10 +1149,8 @@ ul#nav li.current a:after {
 
 @media only screen and (max-width:480px) {
 	#hero {
-	background: #0F1215 url(../images/mobile-bg.png) 50% no-repeat;
+	background: #0F1215 url(../images/hero-bg.png) 50% no-repeat;
 	background-size: contain;
-	padding: 100%;
-	max-width:100%;	
 	}
 
 	.hero-content {
