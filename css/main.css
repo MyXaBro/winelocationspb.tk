@@ -1150,7 +1150,6 @@ ul#nav li.current a:after {
 @media only screen and (max-width:480px) {
 	#hero {
 	background: url(../images/hero-bg.png) 50% no-repeat;
-	background-size: contain;
 	background-color:  #0F1215 ;
 	}
 
